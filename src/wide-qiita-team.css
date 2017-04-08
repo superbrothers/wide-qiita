@@ -1,0 +1,7 @@
+@media (min-width: 1200px) {
+    .sharedHeader_inner,
+    .teamSubHeader_inner,
+    .teamMain_inner {
+        width: 100% !important;
+    }
+}

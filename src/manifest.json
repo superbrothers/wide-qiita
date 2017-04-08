@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Wide Qiita",
+  "description": "Expand web pages to full width on Qiita and Qiita:Team.",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["*://qiita.com/*"],
+      "css": ["wide-qiita.css"]
+    },
+    {
+      "matches": ["*://*.qiita.com/*"],
+      "css": ["wide-qiita-team.css"]
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT License",
+      "url": "https://raw.githubusercontent.com/superbrothers/wide-qiita/master/LICENSE.txt"
+    }
+  ]
+}
